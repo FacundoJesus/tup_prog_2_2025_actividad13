@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio1_Models", "Ejercicio1_Models\Ejercicio1_Models.csproj", "{0B8DC2EA-97F8-45B5-B09F-DCCEEE114CBF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio2_DesktopApp", "Ejercicio2_DesktopApp\Ejercicio2_DesktopApp.csproj", "{CF446E1A-22DD-4F83-9AA4-DBD55702761D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio3_ApiWebApp", "Ejercicio3_ApiWebApp\Ejercicio3_ApiWebApp.csproj", "{5D3514FE-D1C2-4E30-9349-1C2C1F18306B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{CF446E1A-22DD-4F83-9AA4-DBD55702761D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF446E1A-22DD-4F83-9AA4-DBD55702761D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF446E1A-22DD-4F83-9AA4-DBD55702761D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5D3514FE-D1C2-4E30-9349-1C2C1F18306B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D3514FE-D1C2-4E30-9349-1C2C1F18306B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D3514FE-D1C2-4E30-9349-1C2C1F18306B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D3514FE-D1C2-4E30-9349-1C2C1F18306B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

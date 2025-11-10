@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Ejercicio1_Models
 {
+    [Serializable]
     public class Camion
     {
         private double pesoControl = 0;
         public int Patente { get; set; }
         public double PesoMax {  get; set; }
+
 
         Stack <Paquete> manifiesto = new Stack<Paquete>();
 
@@ -21,16 +23,19 @@ namespace Ejercicio1_Models
         }
 
         public bool AgregarPaquete(Paquete unPaquete) {
-            if (unPaquete == null) {
-                throw new Exception("Paquete nulo");
+
+            if (unPaquete == null) throw new NullReferenceException("Paquete Nulo!");
+
+            if (pesoControl + unPaquete.Peso < PesoMax)
+            {
+                manifiesto.Push(unPaquete);
+                pesoControl += unPaquete.Peso;
+                return true;
             }
-
-            if (unPaquete.Peso + pesoControl > PesoMax) return false;
-
-            manifiesto.Push(unPaquete);
-            pesoControl += unPaquete.Peso;
-            return true;
+            return false;
         }
+
+        
 
         public string[] VerCarga()
         {
@@ -57,6 +62,11 @@ namespace Ejercicio1_Models
                 pesoControl -= p.Peso;
             }
             return p;
+        }
+
+        public override string ToString()
+        {
+            return $"{this.Patente} - {this.PesoMax} Kg.";
         }
     }
 }

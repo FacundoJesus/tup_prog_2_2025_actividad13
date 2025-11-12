@@ -34,16 +34,15 @@ namespace Ejercicio1_Models
         public double CargarPaquete(int posicion, Paquete unPaquete)
         {
             Camion camion = listaCamiones[posicion];
-            if(camion != null) {
-                if (camion.AgregarPaquete(unPaquete) == true)
-                {
+            
+            if (camion.AgregarPaquete(unPaquete) == true)
+            {
                     ListaPaquetes.Remove(unPaquete);
-                }
             }
             return camion.CargaEnKg();
         }
 
-        public void Descargar(FileStream fs)
+        public void Descargar(Stream fs)
         {
             StreamReader sr = new StreamReader(fs);
 
@@ -65,7 +64,7 @@ namespace Ejercicio1_Models
             sr.Close();
         }
 
-        public void RetirarCamion(FileStream fs, int posicion)
+        public void RetirarCamion(Stream fs, int posicion)
         {
             StreamWriter sw = new StreamWriter(fs);
 

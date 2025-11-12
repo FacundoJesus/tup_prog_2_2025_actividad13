@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio1_Models", "Ejerci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio2_DesktopApp", "Ejercicio2_DesktopApp\Ejercicio2_DesktopApp.csproj", "{CF446E1A-22DD-4F83-9AA4-DBD55702761D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio3_ApiWebApp", "Ejercicio3_ApiWebApp\Ejercicio3_ApiWebApp.csproj", "{8896BBF4-263D-4FBD-AADC-9562FBD710CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CF446E1A-22DD-4F83-9AA4-DBD55702761D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF446E1A-22DD-4F83-9AA4-DBD55702761D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF446E1A-22DD-4F83-9AA4-DBD55702761D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8896BBF4-263D-4FBD-AADC-9562FBD710CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8896BBF4-263D-4FBD-AADC-9562FBD710CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8896BBF4-263D-4FBD-AADC-9562FBD710CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8896BBF4-263D-4FBD-AADC-9562FBD710CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio2_DesktopApp", "Ej
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio3_ApiWebApp", "Ejercicio3_ApiWebApp\Ejercicio3_ApiWebApp.csproj", "{8896BBF4-263D-4FBD-AADC-9562FBD710CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio4_ClientApiWebDesktopApp", "Ejercicio4_ClientApiWebDesktopApp\Ejercicio4_ClientApiWebDesktopApp.csproj", "{C616B716-8D6E-46D1-B817-8C5EE34D3AA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8896BBF4-263D-4FBD-AADC-9562FBD710CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8896BBF4-263D-4FBD-AADC-9562FBD710CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8896BBF4-263D-4FBD-AADC-9562FBD710CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C616B716-8D6E-46D1-B817-8C5EE34D3AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C616B716-8D6E-46D1-B817-8C5EE34D3AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C616B716-8D6E-46D1-B817-8C5EE34D3AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C616B716-8D6E-46D1-B817-8C5EE34D3AA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
